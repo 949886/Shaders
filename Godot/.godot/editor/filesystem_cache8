@@ -1,0 +1,12 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1698072011
+icon.svg::CompressedTexture2D::2031356952763735394::1695923483::1695923490::1::::<><>::
+README.md::TextFile::-1::1697975919::0::1::::<><>::
+::res://Scenes/::1698047475
+1 first shader.tscn::PackedScene::137468001533743205::1695927897::0::1::::<><>::res://Shaders/Test/1_first_shader.gdshader
+2 texture.tscn::PackedScene::1685768884906247861::1698045825::0::1::::<><>::
+node_2d.tscn::PackedScene::4090454719673410347::1698047475::0::1::::<><>::res://Shaders/Test/1_first_shader.gdshader
+::res://Shaders/::1695923992
+::res://Shaders/Test/::1698047475
+1_first_shader.gdshader::Shader::-1::1698047475::0::1::::<><>::
+new_shader.gdshader::Shader::-1::1698047475::0::1::::<><>::

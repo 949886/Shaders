@@ -17,7 +17,7 @@ float4 main(in float2 uv: TEXCOORD0 ): SV_TARGET
     float a = atan2(uv.y, uv.x);
 
     // Rotate by iTime
-    float c = 0.3 * cos(r * 200 + a + iTime * 0.1);
+    float c = 0.5 * cos(r * 200 + a + iTime * 0.1);
 
     return (float4)c;
 }

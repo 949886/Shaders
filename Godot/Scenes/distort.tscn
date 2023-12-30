@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://bkdywdorc8p23"]
+
+[ext_resource type="Shader" path="res://Shaders/Test/distort.gdshader" id="1_co0c2"]
+[ext_resource type="Texture2D" uid="uid://37aff8eqyyww" path="res://icon.svg" id="2_iajd5"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dia6s"]
+shader = ExtResource("1_co0c2")
+shader_parameter/center = Vector2(0.5, 0.5)
+shader_parameter/force = -0.061
+shader_parameter/offset = -0.015
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_dia6s")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_iajd5")

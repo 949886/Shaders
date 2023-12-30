@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://byjpgrrbqp4kl"]
+
+[ext_resource type="Shader" path="res://Shaders/Test/1_first_shader.gdshader" id="1_2pcyx"]
+[ext_resource type="Shader" path="res://Shaders/Test/new_shader.gdshader" id="2_wyh04"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_kgukm"]
+shader = ExtResource("1_2pcyx")
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_5jias"]
+shader = ExtResource("2_wyh04")
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+material = SubResource("ShaderMaterial_kgukm")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+material = SubResource("ShaderMaterial_5jias")
+offset_right = 581.0
+offset_bottom = 539.0

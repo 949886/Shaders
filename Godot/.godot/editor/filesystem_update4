@@ -1,0 +1,7 @@
+res://Scenes/node_2d.tscn
+res://Shaders/Test/1_first_shader.gdshader
+res://Shaders/Test/new_shader.gdshader
+res://Scenes/2 texture.tscn
+res://Shaders/Test/2_texture.gdshader
+res://Scenes/distort.tscn
+res://Shaders/Test/distort.gdshader
